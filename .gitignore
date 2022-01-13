@@ -8,3 +8,12 @@
 .project
 mvnw.cmd
 .classpath
+
+config-service-mongo/HELP.md
+config-service-mongo/core-service.iml
+core-service-with-mongo/HELP.md
+core-service-with-mongo/core-service.iml
+core-service/HELP.md
+core-service/core-service.iml
+core-service-with-mongo/src/main/resources/
+core-service/src/main/resources/
