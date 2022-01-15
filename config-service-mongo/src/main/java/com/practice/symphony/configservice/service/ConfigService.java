@@ -10,7 +10,15 @@ public class ConfigService {
 	@Autowired
 	private ConfigDao configDao;
 	
+	private CacheService cacheService;
+	
 	public Config getConfig(int tenantId) {
+		Object configFromCache = cacheService.getConfig(tenantId);
+		
+		if(configFromCache!=null) {
+			return (Config) configFromCache;
+		}
+		
 		return configDao.getConfig(tenantId);
 	}
 	
