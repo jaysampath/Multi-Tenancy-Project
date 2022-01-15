@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.practice.symphony</groupId>
-	<artifactId>core-service-with-mongo</artifactId>
+	<artifactId>core-service-with-mongo-shared-db</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>core-service-with-mongo</name>
+	<name>core-service-with-mongo-shared-db</name>
 	<description>Demo project for Symphony MT</description>
 	<properties>
 		<java.version>1.8</java.version>
