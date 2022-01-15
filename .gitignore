@@ -17,3 +17,5 @@ core-service/HELP.md
 core-service/core-service.iml
 core-service-with-mongo/src/main/resources/
 core-service/src/main/resources/
+
+.metadata/
