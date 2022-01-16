@@ -16,6 +16,9 @@ public class Config {
 		this.account = account;
 		this.emailExtension = emailExtension;
 	}
+	public Config() {
+		// TODO Auto-generated constructor stub
+	}
 	public int getId() {
 		return id;
 	}

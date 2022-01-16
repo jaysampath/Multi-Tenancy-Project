@@ -19,8 +19,8 @@ public class ConfigServiceController {
 	private ConfigService configService;
 	
 	@GetMapping("/{id}")
-	public Config getConfig(@PathVariable int id) {
-		return configService.getConfig(id);
+	public Config getConfig(@PathVariable String id) {
+		return configService.getConfig(Integer.parseInt(id));
 	}
 	
 	
